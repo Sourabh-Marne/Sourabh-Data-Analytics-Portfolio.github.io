@@ -11171,7 +11171,7 @@ p {
   transition: all, 0.3s;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/* @media (prefers-reduced-motion: reduce) {
   .service-card .body .subtitle {
     -webkit-transition: none;
     transition: none;
@@ -11185,6 +11185,25 @@ p {
 }
 
 .service-card:hover .body .subtitle {
+  bottom: 7px;
+  opacity: 1;
+  visibility: visible;
+} */
+
+@media (prefers-reduced-motion: reduce) {
+  .service-card .body .subtitle {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.service-card .body img.icon {
+  margin-top: 5px;
+  width: 45px;
+  margin-bottom: 15px;
+}
+
+.service-card .body .subtitle {
   bottom: 7px;
   opacity: 1;
   visibility: visible;
@@ -11292,6 +11311,14 @@ p {
   margin-bottom: 15px;
 }
 
+/* Added block */
+@media only screen and (max-width: 767px) {
+  .pricing-wrapper .pricing-card-header .pricing-card-icon {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+}
 
 .pricing-wrapper .pricing-card-footer {
   margin: 10px 0;
