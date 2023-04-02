@@ -12379,15 +12379,17 @@ body {
   }
 }
 
-/* Check */
 @media screen and (max-width: 767px) {
   .header {
     height: 100vh;
   }
+  .header-content {
+    padding-top: 20%;
+  }
   .header-title {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .header-subtitle {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
