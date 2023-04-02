@@ -11076,12 +11076,12 @@ a.text-dark:hover, a.text-dark:focus {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Baloo Paaji', cursive;
   color: #695aa6;
 }
 
 .my-font {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Baloo Paaji', cursive;
 }
 
 p {
@@ -11668,7 +11668,7 @@ pre .code {
           align-items: center;
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
-  font-family: 'Open Sans', cursive;
+  font-family: 'Baloo Paaji', cursive;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -12379,4 +12379,15 @@ body {
   }
 }
 
-
+/* Check */
+@media screen and (max-width: 767px) {
+  .header {
+    height: 100vh;
+  }
+  .header-title {
+    font-size: 3rem;
+  }
+  .header-subtitle {
+    font-size: 1.5rem;
+  }
+}
