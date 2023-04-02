@@ -11214,8 +11214,18 @@ p {
   display: block;
   position: relative;
   overflow: hidden;
+  width: 50%; /* Add width to make two cards in a row */
+  float: left; /* Add float to position cards side by side */
 }
 
+@media (max-width: 767.98px) {
+  .portfolio-card {
+    width: 100%; /* Change width to make one card in a row */
+    float: none; /* Remove float to position cards one below the other */
+  }
+}
+
+/* Add the rest of the code as it is */
 .portfolio-card .portfolio-card-img {
   width: 100%;
 }
